@@ -6,6 +6,19 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "public/index.php" }
-  ]
+  ],
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "APP_KEY": "base64:your-app-key",
+    "APP_STORAGE": "/tmp",
+    "DB_CONNECTION": "mysql",
+    "DB_HOST": "61770b.h.filess.io",
+    "DB_PORT": "61031",
+    "DB_DATABASE": "transformedu_cottondwn",
+    "DB_USERNAME": "transformedu_cottondwn",
+    "DB_PASSWORD": "4z4d94c7f399979334109874fc39c14a52a4987"
+  }
 }
+
 
